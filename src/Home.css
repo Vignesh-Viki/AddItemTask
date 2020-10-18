@@ -1,0 +1,46 @@
+.App {
+    text-align: center;
+  }
+.itemList{
+	background-color: rgb(179, 0, 0);
+	color : white;
+	padding: 5px 8px 5px 23px;
+	width: max-content;
+	border: 1px;
+	margin: 10px auto;
+	border-radius: 10px;
+}
+.themeDark{
+    background-color: black;
+    min-height: 100vh;
+    display: "flex";
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(7px + 2vmin);
+    color: rgb(153, 179, 255)
+;
+    }
+.themeLight{
+    background-color: rgb(255,176,155);
+    min-height: 100vh;
+    display: "flex";
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(7px + 2vmin);
+    color:black;
+    }
+button {
+    font-size: calc(6px + 2vmin);
+    background-color: rgb(153, 179, 255);
+    padding: 2px 5px;
+    border-radius: 4px/4px;	
+}
+
+.togglebutton{
+	text-align: right;
+ 	padding: 5px;
+    font-size: calc(7px + 2vmin);
+    border-radius: 10px/10px;
+}
